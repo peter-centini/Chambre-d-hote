@@ -1,0 +1,138 @@
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_kqRL6JF5N8VXvL0nfvVtm");
+      })();
+    </script>
+    <title>Le Nüa</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li id="logo"><a href="#">Le Nûa</a></li>
+          <li><a href="#Langue">Langue</a></li>
+          <li><a href="#reserver">reserver</a></li>
+          <li><a href="#contact">Nous contacter</a></li>
+        </ul>
+      </nav>
+      <div id="imageprincipale">
+        <h1>Le Nûa</h1>
+        <div id="premierTrait"></div>
+        <h3>Chambres d'hôtes</h3>
+      </div>
+    </header>
+    <section id="presentation">
+      <div id="texteIntro">
+        <h2>Un lieu unique pour passé un séjour unique</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Voluptatibus, eligendi. Sequi ipsam ipsum veritatis, odit non delectus
+          fugiat iusto! Aliquid fuga earum reprehenderit consectetur molestiae!
+        </p>
+      </div>
+      <div id="prestations">
+        <div class="imagesPrestations">
+          <h4>Nous Trouver</h4>
+          <a href="#"><img src="media/carte.jpg" alt="carte" /></a>
+        </div>
+        <div class="imagesPrestations">
+          <h4>Coté Chambres</h4>
+          <a href="#"><img src="media/chambre.jpg" alt="chambre" /></a>
+        </div>
+        <div class="imagesPrestations">
+          <h4>Coté cuisine</h4>
+          <a href="#"><img src="media/repas.jpg" alt="cuisine" /></a>
+        </div>
+      </div>
+    </section>
+    <section id="tourisme">
+      <h2>Et tant à découvrir dans la Région</h2>
+      <ul>
+        <li id="ocean"><p>L'océan Atlantique</p></li>
+        <li id="chateau"><p>Les chateaux du Médoc</p></li>
+        <li id="phare"><p>L'estuaire de la Gironde</p></li>
+        <li id="vignoble"><p>Le vignoble de Nuaillé d'aunis</p></li>
+      </ul>
+    </section>
+    <footer>
+      <h2 id="contact">Contactez-nous</h2>
+      <form id="form-contact" action="" method="" class="">
+        <input
+          type="text"
+          id="name"
+          name="name"
+          label="name"
+          placeholder="Nom"
+          required
+        />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          label="email"
+          placeholder="E-mail"
+          required
+        />
+        <select>
+          <option name="reservation" value="seen">Je veux réserver un séjour</option>
+          <option  name="infos" value="seen">Je veux des Informations sur les séjours</option>
+        </select>
+        <textarea 
+          label="message"
+          id="message"
+          name="message"
+          placeholder="votre message ici"
+          required
+        ></textarea>
+        <button
+          id="submitButton"
+          type="submit"
+          onclick="sendform()"
+          value="Envoyer"
+        >
+          envoyer
+        </button>
+      </form>
+      <script type="text/javascript" src="script/contact2.js"></script>
+
+      <div id="deuxiemetrait"></div>
+      <div id="copyrightEtIcons">
+        <div id="copyright">
+          <span> © Peter-Centini-2021</span>
+        </div>
+        <div id="icons">
+          <a href="http://www.twitter.fr"><i class="fa fa-twitter"></i></a>
+          <a href="http://www.facebook.fr"><i class="fa fa-facebook"></i></a>
+          <a href="http://www.instagram.com"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+    </footer>
+    <section>
+      <div id="scrollTop" class="scrollTop">
+        <a href="#imageprincipale"
+          ><button id="btnScrollTop" class="btnScrollTop">
+            <i class="fas fa-angle-up"></i></button
+        ></a>
+      </div>
+    </section>
+    <script src="script/scrollToTop.js"></script>
+    <script src="script/sweetalert.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.all.min.js"></script>
+  </body>
+</html>
