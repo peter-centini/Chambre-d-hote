@@ -36,7 +36,7 @@ a {
     text-decoration: none;
     color: black;
 }
-/* **************************** NAVBAR ***************** */
+/* **************************** NAVBAR **************************** */
 
 nav {
     overflow: hidden;
@@ -187,7 +187,7 @@ h3 {
     box-shadow: -4px 4px 0 1px rgba(15, 154, 156, 1);
 }
 
-/* ************************** FOOTER ******************$ */
+/* ************************** FOOTER ******************* */
 footer {
     background-color: #7a6539;
     color: #FFFAE1;
@@ -252,7 +252,7 @@ textarea {
   transform: scale(1.5);
   transition: 0.1s;
 }
-/*********************** btnScrollToTop **************************/
+/* ********************** btnScrollToTop ************************* */
 
 .btnScrollTop {
 	position: fixed;
@@ -290,3 +290,4 @@ textarea {
 	padding-bottom: 10px;
     background-color: whitesmoke;
 }
+/* ************************************** FINISH  CODE CSS *************************** */
